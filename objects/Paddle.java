@@ -1,5 +1,13 @@
+package objects;
+
 import biuoop.DrawSurface;
 import biuoop.KeyboardSensor;
+import collision.Collidable;
+import game.Game;
+import geometry.Point;
+import geometry.Rectangle;
+import geometry.Velocity;
+import sprites.Sprite;
 
 import java.awt.*;
 
@@ -90,4 +98,3 @@ public class Paddle implements Collidable, Sprite {
         g.addCollidable(this);
     }
 }
-

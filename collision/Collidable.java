@@ -1,3 +1,10 @@
+package collision;
+
+import geometry.Point;
+import geometry.Rectangle;
+import geometry.Velocity;
+import objects.Ball;
+
 public interface Collidable {
     // Return the "collision shape" of the object.
     Rectangle getCollisionRectangle();//להחזיר את האיבר שאני אתנגש איתו

@@ -1,3 +1,8 @@
+package listeners;
+
+import objects.Ball;
+import objects.Block;
+
 public interface HitListener { //מי שמקבל הודעה כשיש פגיעה
     // This method is called whenever the beingHit object is hit.
     // The hitter parameter is the Ball that's doing the hitting.

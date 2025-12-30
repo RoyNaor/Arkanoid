@@ -1,3 +1,5 @@
+package sprites;
+
 // ID - 324946102
 import biuoop.DrawSurface;
 

@@ -1,4 +1,12 @@
+package game;
+
 // ID - 324946102
+
+import collision.Collidable;
+import collision.CollisionInfo;
+import geometry.Line;
+import geometry.Point;
+import geometry.Rectangle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +14,9 @@ import java.util.List;
 public class GameEnvironment {
 
     private List<Collidable> collidables = new ArrayList<>();
+
+    public GameEnvironment() {
+    }
 
     // add the given collidable to the environment.
 
