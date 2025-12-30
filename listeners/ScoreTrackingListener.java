@@ -1,3 +1,9 @@
+package listeners;
+
+import game.Counter;
+import objects.Ball;
+import objects.Block;
+
 public class ScoreTrackingListener implements HitListener {
     private Counter currentScore;
 

@@ -1,3 +1,7 @@
+package collision;
+
+import geometry.Point;
+
 public class CollisionInfo {
 
      private Point collidePoint;

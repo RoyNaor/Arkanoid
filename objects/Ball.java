@@ -1,5 +1,15 @@
+package objects;
+
 // ID - 324946102
 import biuoop.DrawSurface;
+import collision.Collidable;
+import collision.CollisionInfo;
+import game.Game;
+import game.GameEnvironment;
+import geometry.Line;
+import geometry.Point;
+import geometry.Velocity;
+import sprites.Sprite;
 
 import java.awt.*;
 
@@ -70,4 +80,3 @@ public class Ball implements Sprite {
         return this.color;
     }
 }
-

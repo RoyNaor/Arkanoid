@@ -1,4 +1,7 @@
+package game;
+
 import biuoop.DrawSurface;
+import sprites.Sprite;
 
 import java.awt.*;
 

@@ -1,4 +1,14 @@
+package objects;
+
 import biuoop.DrawSurface;
+import collision.Collidable;
+import geometry.Point;
+import geometry.Rectangle;
+import geometry.Velocity;
+import listeners.HitListener;
+import listeners.HitNotifier;
+import game.Game;
+import sprites.Sprite;
 
 import java.util.List;
 import java.awt.*;

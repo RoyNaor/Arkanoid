@@ -1,4 +1,7 @@
+package geometry;
+
 import java.util.ArrayList;
+
 public class Rectangle {
 
     private Point upperLeft;

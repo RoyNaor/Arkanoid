@@ -1,9 +1,22 @@
+package game;
+
 import biuoop.DrawSurface;
 import biuoop.GUI;
 import biuoop.Sleeper;
+import collision.Collidable;
+import geometry.Point;
+import geometry.Rectangle;
+import listeners.BallRemover;
+import listeners.BlockRemover;
+import listeners.ScoreTrackingListener;
+import objects.Ball;
+import objects.Block;
+import objects.Paddle;
+import sprites.Sprite;
+import sprites.SpriteCollection;
 
-import java.util.Random;
 import java.awt.*;
+import java.util.Random;
 
 public class Game {
     private SpriteCollection sprites;

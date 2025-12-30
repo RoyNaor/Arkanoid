@@ -1,4 +1,6 @@
 // ID - 324946102
+package geometry;
+
 public class Point {
     private double x, y;
 
@@ -30,5 +32,4 @@ public class Point {
 
 
 }
-
 

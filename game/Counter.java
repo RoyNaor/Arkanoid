@@ -1,8 +1,11 @@
+package game;
 
 
 public class Counter {
     private int number = 0;
 
+    public Counter() {
+    }
 
     // add number to current count.
     public void increase(int number){
